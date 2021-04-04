@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.cert_chain    = ['certs/yolk.pem']
   s.signing_key   = File.expand_path('~/.ssh/gem-private_key.pem') if $PROGRAM_NAME =~ /gem\z/
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 2.4.10'
 
   s.add_dependency             'savon', '>= 2.3.0'
 
